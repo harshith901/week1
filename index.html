@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+</head>
+<body>
+    <center>
+    <form>
+        <h3>Register</h3>
+        <input id="name" type="text" placeholder="Name"><br><br>
+        <input type="email" placeholder="Email" required><br><br>
+        <input type="tel" placeholder="Phone" required><br><br>
+        <button id="submit" type="button">Submit</button>
+    </form>
+</center>
+    <script>
+        document.getElementById("submit").addEventListener("click", () => {
+            alert("Registration Successful!");
+        });
+    </script>
+</body>
+</html>
+<!-- git init
+git remote add origin link 
+git add . 
+git commit -m ""
+git branch -M master
+git push -u origin master -->
